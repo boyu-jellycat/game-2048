@@ -3,7 +3,6 @@ import copy
 def initialize_game():
     grid = [[0]*4 for _ in range(4)]
     grid = add_random_two(grid)
-    grid = add_random_two(grid)
     return grid
 
 def add_random_two(grid):
